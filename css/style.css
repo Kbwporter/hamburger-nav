@@ -6,16 +6,20 @@
   padding: 0px;
 }
 
-html {
-  background-color: gray;
+/*html {
+  background-color: gray;}*/
   /* changes the background color*/
+
+
+body {
+  background-image: url(../images/cream_dust_@2X.png);
 }
 
 .main-nav {
   /* main nav/ nav tag styling*/
   display: flex;
   min-height: 50px;
-  background-color: white;
+  background-color: #dbce53;
   padding: 0 1rem;
   align-items: center;
   font-size: 1.5rem;
@@ -25,6 +29,7 @@ nav a {
   text-decoration: none;
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
+  color: #eeede3;
 }
 
 .hamburger {
@@ -50,22 +55,23 @@ nav a {
   .hamburger {
     display: block;
     margin-left: auto;
-    background: yellow;
+    background: #dbce53;
     border: none;
     width: 50px;
     height: 50px;
     position: relative;
+    outline: none;
   }
 
   .hamburger div {
     height: 7px;
     width: 50px;
-    background-color: #000;
+    background-color: #eeede3;
     position: absolute;
     border-radius: 3px;
     transform: translate(-50%, -50%);
     left: 50%;
-    transition: .25s;
+    transition: .10s;
   }
 
   .hamburger div:first-child {

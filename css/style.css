@@ -19,7 +19,7 @@ body {
   /* main nav/ nav tag styling*/
   display: flex;
   min-height: 50px;
-  background-color: #dbce53;
+  background-color: #ffe683;
   padding: 0 1rem;
   align-items: center;
   font-size: 1.5rem;
@@ -29,7 +29,7 @@ nav a {
   text-decoration: none;
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
-  color: #eeede3;
+  color: #ffffff;
 }
 
 .hamburger {
@@ -115,4 +115,92 @@ nav a {
     text-align: center;
   }
 
-}/* closes media query*/
+}/*---------closes nav media query---------*/
+
+.row {
+  display: flex;
+  overflow: hidden;
+  position:relative;
+  height:350px;
+  margin-bottom:0;
+  border-bottom: 0;
+}
+
+.col-41 {
+  height:100%;
+  width:100%;
+  background-image: url("../images/holder_1.jpeg");
+  font-size:0;
+  text-align:center;
+}
+.col-42 {
+  height:100%;
+  width:100%;
+  background-image: url("../images/holder_2.jpeg");
+  font-size:0;
+  text-align:center;
+}
+.col-43 {
+  height:100%;
+  width:100%;
+  background-image: url("../images/holder_3.jpeg");
+  font-size:0;
+  text-align:center;
+}
+.col-44 {
+  height:100%;
+  width:100%;
+  background-image: url("../images/holder_4.jpeg");
+  font-size:0;
+  text-align:center;
+}
+
+.col-45 {
+  height:100%;
+  width:100%;
+  background-image: url("../images/holder_5.jpeg");
+  font-size:0;
+  text-align:center;
+}
+.col-46 {
+  height:100%;
+  width:100%;
+  background-image: url("../images/holder_6.jpeg");
+  font-size:0;
+  text-align:center;
+}
+.col-47 {
+  height:100%;
+  width:100%;
+  background-image: url("../images/holder_7.jpg");
+  font-size:0;
+  text-align:center;
+}
+.col-48 {
+  height:100%;
+  width:100%;
+  background-image: url("../images/holder_8.jpeg");
+  font-size:0;
+  text-align:center;
+}
+
+.row:hover{
+  font-size:16px;
+  background-size:0;
+  background:#103973;
+}
+
+.row h2:hover {
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .row {
+    display: block;
+  }
+  .col-4 {
+    width: 100%;
+  }
+}
